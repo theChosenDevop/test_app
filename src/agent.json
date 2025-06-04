@@ -3,8 +3,8 @@
   "description": "An agent that greets users.",
   "url": "https://hello-agent.onrender.com/task",
   "provider": {
-    "organization": "Telex",
-    "url": "https://telex.im"
+    "organization": "theChosenDevop",
+    "url": "https://githib.com"
   },
   "version": "1.0.0",
   "defaultInputModes": [
