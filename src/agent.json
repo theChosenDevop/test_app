@@ -1,7 +1,7 @@
 {
   "name": "HelloAgent",
   "description": "An agent that greets users.",
-  "url": "https://hello-agent.onrender.com/message/send",
+  "url": "https://hello-agent.onrender.com/task",
   "provider": {
     "organization": "Telex",
     "url": "https://telex.im"
