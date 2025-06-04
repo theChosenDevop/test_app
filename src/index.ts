@@ -15,8 +15,8 @@ app.get('/.well-known/agent.json', (req: Request, res: Response) => {
 
 
 app.post('/task', (req: Request, res: Response) => {
-  res.status(200).json(req.body)
- console.log('Received task:', req.body);
+  res.status(200).json(req.body);
+  console.log('Received task:', req.body);
 })
 
 app.listen(port, () => {
