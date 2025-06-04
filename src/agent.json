@@ -1,22 +1,22 @@
 {
   "name": "HelloAgent",
   "description": "An agent that greets users.",
-  "url": "https://hello-agent.onrender.com/task",
+  "url": "https://hello-agent.onrender.com/message/send",
   "provider": {
     "organization": "Telex",
     "url": "https://telex.im"
   },
   "version": "1.0.0",
-  "capabilities": {
-    "streaming": false,
-    "pushNotifications": false
-  },
-   "defaultInputModes": [
+  "defaultInputModes": [
         "application/json"
     ],
     "defaultOutputModes": [
         "application/json"
     ],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
   "skills": [
     {
       "id": "greetingSkill",
