@@ -8,6 +8,7 @@ const port = 3000;
 app.use(cors())
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.get('/.well-known/agent.json', (req: Request, res: Response) => {
   res.send(agentCard);
